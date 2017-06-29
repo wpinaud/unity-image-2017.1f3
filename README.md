@@ -1,5 +1,5 @@
 # unity-image-5.6.1f1
-Image containing Unity 5.6.1f1 ready for building your project
+Docker image containing Unity 5.6.1f1 ready for building your project under Linux
 
 To build it: docker build -t unity-image-5.6.1f1 .
 
