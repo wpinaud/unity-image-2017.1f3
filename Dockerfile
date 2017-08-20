@@ -1,4 +1,4 @@
-FROM unity-base-image
+FROM wpinaud/unity-base-image
 ENV UNITY_INSTALLER_URL http://beta.unity3d.com/download/061bcf22327f/unity-editor_amd64-2017.1.0xf3Linux.deb
 # ------------------------------------------------------
 # --- Install required tools
