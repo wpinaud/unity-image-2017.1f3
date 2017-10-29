@@ -4,7 +4,7 @@ ENV UNITY_INSTALLER_URL http://beta.unity3d.com/download/061bcf22327f/unity-edit
 # --- Install required tools
 RUN apt-get update -qq && apt-get clean
 # ------------------------------------------------------
-# --- Unity 5.6.1f1
+# --- Unity 2017.1.0f3
 RUN wget -q ${UNITY_INSTALLER_URL} -O unity.deb && \
     apt-get install -y ./unity.deb && \
     rm unity.deb && \
